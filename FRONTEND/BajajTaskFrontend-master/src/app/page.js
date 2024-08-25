@@ -29,7 +29,7 @@ function App() {
       }
 
       // Make the API request
-      const response = await fetch("https://bajajtask-w5k3.onrender.com/bfhl", {
+      const response = await fetch("https://mainbajaj21bkt0073.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(parsedData),
